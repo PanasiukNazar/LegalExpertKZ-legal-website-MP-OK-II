@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #008c76ff;
+    --primary: #ff7f41ff;
     --secondary: #757575;
     --light: #f3f6f8;
     --dark: #0c2b4b;
@@ -375,12 +375,12 @@
     display: none;
 }
 header i {
-    color: #008c76ff;
+    color: #ff7f41ff;
     font-size: 32px;
     text-align: center;
 }
 header h2 {
-    color: #008c76ff;
+    color: #ff7f41ff;
     font-weight: 500;
     text-align: center;
 }
@@ -388,7 +388,7 @@ header h2 {
     text-align: center;
 }
 .data p a {
-    color: #008c76ff;
+    color: #ff7f41ff;
     text-decoration: none;
     text-align: center !important;
 }
@@ -400,10 +400,10 @@ header h2 {
     text-align: center;
 }
 .buttons .cookie-button {
-    border: 2px solid #008c76ff;
+    border: 2px solid #ff7f41ff;
     color: #fff;
     padding: 8px 0;
-    background: #008c76ff;
+    background: #ff7f41ff;
     cursor: pointer;
     width: calc(100% / 2 - 10px);
     transition: all 0.2s ease;
@@ -412,19 +412,19 @@ header h2 {
 }
 .buttons #acceptBtn:hover {
     background-color: transparent;
-    color: #008c76ff;
+    color: #ff7f41ff;
 }
 #declineBtn {
     background-color: #fff;
-    color: #008c76ff;
+    color: #ff7f41ff;
     border-radius: 0px;
 }
 #declineBtn:hover {
-    background-color: #008c76ff;
+    background-color: #ff7f41ff;
     color: #fff;
 }
 #result {
-    color: #008c76ff;
+    color: #ff7f41ff;
     font-size: 14px;
 }
 select {
