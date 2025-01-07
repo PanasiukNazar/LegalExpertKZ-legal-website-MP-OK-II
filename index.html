@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ЛегалЭкспертKZ</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5"
+            >
+                <h2 class="m-0">ЛегалЭкспертKZ</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Главная</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">О нас</a>
+                    <a href="blog.html" class="nav-item nav-link">Наш Блог</a>
+                    <a href="partners.html" class="nav-item nav-link"
+                        >Партнёры</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link"
+                        >Контакты</a
+                    >
+                </div>
+                <a
+                    href="index.html#appointment"
+                    class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
+                    >Записаться на консультацию<i
+                        class="fa fa-arrow-right ms-3"
+                    ></i
+                ></a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
+            <div
+                id="header-carousel"
+                class="carousel slide"
+                data-bs-ride="carousel"
+            >
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img
+                            class="w-100"
+                            src="img/carousel-1.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7">
+                                        <h1
+                                            class="display-2 text-light mb-5 animated slideInDown"
+                                        >
+                                            Оформление легализации в Казахстане
+                                        </h1>
+                                        <a
+                                            href="about.html"
+                                            class="btn btn-primary py-sm-3 px-sm-5"
+                                            >Узнать больше</a
+                                        >
+                                        <a
+                                            href="services.html"
+                                            class="btn btn-light py-sm-3 px-sm-5 ms-3"
+                                            >Наши услуги</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img
+                            class="w-100"
+                            src="img/carousel-2.jpg"
+                            alt="Image"
+                        />
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7">
+                                        <h1
+                                            class="display-2 text-light mb-5 animated slideInDown"
+                                        >
+                                            Профессиональная помощь в
+                                            легализации в Казахстане
+                                        </h1>
+                                        <a
+                                            href="about.html"
+                                            class="btn btn-primary py-sm-3 px-sm-5"
+                                            >Узнать больше</a
+                                        >
+                                        <a
+                                            href="services.html"
+                                            class="btn btn-light py-sm-3 px-sm-5 ms-3"
+                                            >Наши услуги</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#header-carousel"
+                    data-bs-slide="next"
+                >
+                    <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-fluid facts py-5 pt-lg-0">
+            <div class="container py-5 pt-lg-0">
+                <div class="row gx-0">
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                        <div
+                            class="bg-white shadow d-flex align-items-center h-100 p-4"
+                            style="min-height: 150px"
+                        >
+                            <div class="d-flex">
+                                <div class="ps-4">
+                                    <h5>Легализация документов в Казахстане</h5>
+                                    <span>
+                                        Юридические услуги по легализации
+                                        помогут вам обеспечить правильность и
+                                        законность всех ваших документов.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                        <div
+                            class="bg-white shadow d-flex align-items-center h-100 p-4"
+                            style="min-height: 150px"
+                        >
+                            <div class="d-flex">
+                                <div class="ps-4">
+                                    <h5>Обеспечение юридической чистоты</h5>
+                                    <span>
+                                        Мы гарантируем, что все документы,
+                                        связанные с вашей легализацией, будут
+                                        соответствовать требованиям
+                                        казахстанского законодательства.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                        <div
+                            class="bg-white shadow d-flex align-items-center h-100 p-4"
+                            style="min-height: 150px"
+                        >
+                            <div class="d-flex">
+                                <div class="ps-4">
+                                    <h5>
+                                        Профессиональная помощь на всех этапах
+                                    </h5>
+                                    <span>
+                                        Мы предлагаем полный спектр услуг по
+                                        легализации, начиная от подготовки
+                                        документов и заканчивая их регистрацией
+                                        в государственных органах.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div
+                            class="position-relative overflow-hidden ps-5 pt-5 h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100"
+                                src="img/approach-1.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <h6 class="text-primary text-uppercase mb-2">
+                                Наш подход
+                            </h6>
+                            <h1 class="display-6 mb-4">
+                                Юридическая поддержка для легализации в
+                                Казахстане
+                            </h1>
+                            <p>
+                                Наш подход заключается в обеспечении полного
+                                юридического сопровождения в процессе
+                                легализации ваших документов в Казахстане. Мы
+                                понимаем важность соответствия законодательным
+                                требованиям, и поэтому предлагаем комплексную
+                                помощь на всех этапах легализации, начиная от
+                                первичной консультации до регистрации документов
+                                в государственных органах.
+                            </p>
+                            <p class="mb-4">
+                                Мы готовы поддержать вас на каждом шаге, чтобы
+                                обеспечить правильность и законность всех ваших
+                                действий. Наши специалисты имеют опыт работы с
+                                различными типами документов и знают, как
+                                обеспечить их соответствие местным нормам. Мы
+                                работаем для того, чтобы сделать процесс
+                                легализации быстрым и безболезненным для вас.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Courses Start -->
+        <div id="appointment" class="container-xxl my-6 py-6 pb-0">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-3 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <h6 class="text-primary text-uppercase mb-2">
+                        Записаться на прием
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        Сделайте первый шаг к легализации в Казахстане
+                    </h1>
+                    <p>
+                        Ваш путь к легализации документов в Казахстане
+                        начинается с получения юридической консультации. Мы
+                        готовы сопровождать вас на каждом этапе. Понимание ваших
+                        потребностей и целей важно для того, чтобы правильно
+                        оформить документы и пройти все необходимые процедуры.
+                        Независимо от того, начинаете ли вы процесс легализации
+                        или уже находитесь на его завершении, наши специалисты
+                        помогут вам добиться необходимого результата. Мы поможем
+                        вам понять, какие документы требуются, как их правильно
+                        оформить и какие шаги нужно предпринять для успешной
+                        легализации.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div
+                        class="col-lg-8 my-6 mb-0 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="bg-primary text-center p-5">
+                            <h1 class="mb-4">Записаться на прием</h1>
+                            <form action="thanks.html" method="GET">
+                                <div class="row g-3">
+                                    <div class="col-sm-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="text"
+                                                class="form-control border-0"
+                                                id="gname"
+                                                placeholder="Ваше имя"
+                                                required
+                                            />
+                                            <label for="gname">Ваше имя</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control border-0"
+                                                id="email"
+                                                placeholder="Ваш email"
+                                                required
+                                            />
+                                            <label for="email">Ваш email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <select
+                                                name="Тип услуги"
+                                                aria-valuemax="тип услуги"
+                                                required
+                                            >
+                                                <option value="легализация">
+                                                    Легализация документов
+                                                </option>
+                                                <option
+                                                    value="юридические_постановления"
+                                                >
+                                                    Юридические постановления
+                                                </option>
+                                                <option
+                                                    value="социальное_страхование"
+                                                >
+                                                    Социальное страхование
+                                                </option>
+                                                <option
+                                                    value="пенсионные_надбавки"
+                                                >
+                                                    Пенсионные надбавки
+                                                </option>
+                                                <option
+                                                    value="регистрация_компании"
+                                                >
+                                                    Регистрация компании
+                                                </option>
+                                                <option
+                                                    value="налоговая_оптимизация"
+                                                >
+                                                    Оптимизация налогов
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control border-0"
+                                                placeholder="Оставьте сообщение"
+                                                id="message"
+                                                style="height: 100px"
+                                                required
+                                            ></textarea>
+                                            <label for="message"
+                                                >Сообщение</label
+                                            >
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button
+                                            class="btn btn-dark w-100 py-3"
+                                            type="submit"
+                                            id="submit"
+                                        >
+                                            Отправить
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Courses End -->
+
+        <!-- Features Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="text-primary text-uppercase mb-2">
+                            Почему выбирают нас
+                        </h6>
+                        <h1 class="display-6 mb-4">
+                            Ваш партнер в вопросах легализации в Казахстане
+                        </h1>
+                        <p class="mb-5">
+                            Выбор правильного юридического партнера для
+                            легализации документов является важным шагом. Наш
+                            опыт в области юридических услуг и глубокое
+                            понимание процессов легализации в Казахстане
+                            выделяет нас среди других. Мы готовы помочь вам с
+                            подготовкой и легализацией ваших документов, а также
+                            предложить вам надежное сопровождение на каждом
+                            этапе процесса.
+                        </p>
+                        <div class="row gy-5 gx-4">
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.1s"
+                            >
+                                <div class="d-flex align-items-center mb-3">
+                                    <div
+                                        class="flex-shrink-0 btn-square bg-primary me-3"
+                                    >
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <h5 class="mb-0">
+                                        Эксперты в области легализации
+                                    </h5>
+                                </div>
+                                <span>
+                                    Мы специализируемся на всех аспектах
+                                    легализации документов в Казахстане и
+                                    гарантируем их соответствие законодательным
+                                    требованиям.
+                                </span>
+                            </div>
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.2s"
+                            >
+                                <div class="d-flex align-items-center mb-3">
+                                    <div
+                                        class="flex-shrink-0 btn-square bg-primary me-3"
+                                    >
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <h5 class="mb-0">
+                                        Фокус на юридической чистоте
+                                    </h5>
+                                </div>
+                                <span>
+                                    Мы гарантируем, что все ваши документы будут
+                                    полностью соответствовать казахстанским
+                                    законам.
+                                </span>
+                            </div>
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.3s"
+                            >
+                                <div class="d-flex align-items-center mb-3">
+                                    <div
+                                        class="flex-shrink-0 btn-square bg-primary me-3"
+                                    >
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <h5 class="mb-0">
+                                        Оформление всех видов документов
+                                    </h5>
+                                </div>
+                                <span>
+                                    Мы поможем вам с оформлением всех типов
+                                    документов для легализации и регистрации в
+                                    Казахстане.
+                                </span>
+                            </div>
+                            <div
+                                class="col-sm-6 wow fadeIn"
+                                data-wow-delay="0.4s"
+                            >
+                                <div class="d-flex align-items-center mb-3">
+                                    <div
+                                        class="flex-shrink-0 btn-square bg-primary me-3"
+                                    >
+                                        <i class="fa fa-check text-white"></i>
+                                    </div>
+                                    <h5 class="mb-0">
+                                        Полное сопровождение на каждом этапе
+                                    </h5>
+                                </div>
+                                <span>
+                                    Мы предлагаем полное сопровождение на каждом
+                                    этапе процесса легализации, обеспечивая
+                                    уверенность и поддержку на протяжении всего
+                                    пути.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div
+                            class="position-relative overflow-hidden pe-5 pt-5 h-100"
+                            style="min-height: 400px"
+                        >
+                            <img
+                                class="position-absolute w-100 h-100"
+                                src="img/why-1.jpg"
+                                alt=""
+                                style="object-fit: cover"
+                            />
+                            <img
+                                class="position-absolute top-0 end-0 bg-white ps-3 pb-3"
+                                src="img/why-2.jpg"
+                                alt=""
+                                style="width: 200px; height: 200px"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-6">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 500px"
+                >
+                    <h6 class="text-primary text-uppercase mb-2">
+                        Наши последние блоги
+                    </h6>
+                    <h1 class="display-6 mb-4">
+                        Важная информация о легализации в Казахстане
+                    </h1>
+                    <p>
+                        Оставайтесь в курсе наших последних публикаций, в
+                        которых мы рассматриваем важные аспекты процесса
+                        легализации в Казахстане. Мы предоставляем ценные советы
+                        о том, как пройти все этапы легализации и быть
+                        уверенными в легальности вашего бизнеса или
+                        деятельности. Наш блог – это ваш источник экспертных
+                        советов и практических рекомендаций по всем вопросам
+                        легализации в Казахстане.
+                    </p>
+                </div>
+                <div class="row g-0 team-items">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/blog-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="mt-2">
+                                    Как пройти процесс легализации в Казахстане
+                                </h5>
+                                <span>
+                                    Узнайте, как правильно пройти процесс
+                                    легализации в Казахстане, и получите советы
+                                    по каждому этапу этого процесса.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="team-item position-relative">
+                            <div class="position-relative">
+                                <img
+                                    class="img-fluid"
+                                    src="img/blog-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="bg-light text-center p-4">
+                                <h5 class="mt-2">
+                                    Почему легализация важна для бизнеса в
+                                    Казахстане
+                                </h5>
+                                <span>
+                                    Узнайте, как легализация влияет на
+                                    стабильность и развитие бизнеса в Казахстане
+                                    и почему важно соблюдение всех юридических
+                                    норм и правил.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-light footer my-6 mb-0 py-6 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">ЛегалЭкспертKZ</h4>
+                        <p>
+                            В основе нашей миссии лежит стремление помочь вам
+                            раскрыть ваш потенциал и пройти процесс легализации
+                            в Казахстане. Мы предоставляем профессиональные
+                            юридические услуги, адаптированные под ваши
+                            уникальные цели, помогая вам преодолеть все
+                            сложности и обеспечить соответствие всем юридическим
+                            требованиям.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-4">Свяжитесь с нами</h4>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>office 310,
+                            Дінмұхамед Қонаев көшесі 33, Астана 010000,
+                            Казахстан
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+77051740986
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >legal_expert_kz@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Быстрые ссылки</h4>
+                        <a class="btn btn-link" href="index.html">Главная</a>
+                        <a class="btn btn-link" href="about.html">О нас</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Связаться с нами</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Условия использования</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Политика конфиденциальности</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Политика использования cookie</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-light mb-4">Популярные ссылки</h4>
+                        <a class="btn btn-link" href="about.html">О нас</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Связаться с нами</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Условия использования</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Политика конфиденциальности</a
+                        >
+                        <a class="btn btn-link" href="business-model.html"
+                            >Бизнес Модель</a
+                        >
+                        <a class="btn btn-link" href="cookie-policy.html"
+                            >Политика использования cookie</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование файлов cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует файлы cookie для обеспечения лучшего и
+                    более релевантного опыта использования сайта. Мы используем
+                    файлы cookie, чтобы помочь вам пройти процесс легализации в
+                    Казахстане, предоставляя полезную информацию и ресурсы.
+                    <a href="cookie-policy.html">Узнать больше...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
